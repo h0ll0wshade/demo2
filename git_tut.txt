@@ -1,0 +1,17 @@
+3 stages:
+modified , staged , commit :
+
+if you modify content after a commit it gets in the modified area
+to put them in the staged area, use : 
+    git add <file name>
+to remove from staged :
+    git rm --cached <file name>
+to see status if the files:
+    git status
+to commit:
+    git commit -m <message in quotes>
+to see the commits:
+    git log --oneline
+
+if you make mistakes and want to go back:
+revert , reset
